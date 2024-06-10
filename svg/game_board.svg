@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-47 -1 90,44">
+    <style>
+        .zone rect {
+            fill: white;
+            stroke: black;
+            stroke-linejoin: round;
+            stroke-linecap: round;
+        }
+
+        .zone text {
+            font-family: sans-serif;
+            font-size: 2px;
+            text-anchor: middle;
+            dominant-baseline: central;
+        }
+
+        text.rotate-l {
+            transform: rotate(-90deg);
+            transform-origin: center;
+            transform-box: fill-box;
+        }
+
+        text.rotate-r {
+            transform: rotate(90deg);
+            transform-origin: center;
+            transform-box: fill-box;
+        }
+    </style>
+    <g class="zone">
+        <rect x="-45.5" y="3.5" width="14" height="35" />
+        <text x="-38.5" y="21" class="rotate-l">Hospital</text>
+    </g>
+    <g>
+        <!-- Main board -->
+        <g class="zone">
+            <rect x="-30" y="0" width="10" height="14" />
+            <text x="-25" y="7">Pawn</text>
+        </g>
+        <g class="zone">
+            <rect x="-20" y="0" width="10" height="14" />
+            <text x="-15" y="7">Pawn</text>
+        </g>
+        <g class="zone">
+            <rect x="-10" y="0" width="10" height="14" />
+            <text x="-5" y="7">Pawn</text>
+        </g>
+        <g class="zone">
+            <rect x="0" y="0" width="10" height="14" />
+            <text x="5" y="7">Pawn</text>
+        </g>
+        <g class="zone">
+            <rect x="10" y="0" width="10" height="14" />
+            <text x="15" y="7">Pawn</text>
+        </g>
+        <g class="zone">
+            <rect x="20" y="0" width="10" height="14" />
+            <text x="25" y="7">Pawn</text>
+        </g>
+        <g class="zone">
+            <rect x="-30" y="14" width="10" height="14" />
+            <text x="-25" y="21">Rook</text>
+        </g>
+        <g class="zone">
+            <rect x="-20" y="14" width="10" height="14" />
+            <text x="-15" y="21">Knight</text>
+        </g>
+        <g class="zone">
+            <rect x="-10" y="14" width="10" height="14" />
+            <text x="-5" y="21">Knight</text>
+        </g>
+        <g class="zone">
+            <rect x="0" y="14" width="10" height="14" />
+            <text x="5" y="21">Knight</text>
+        </g>
+        <g class="zone">
+            <rect x="10" y="14" width="10" height="14" />
+            <text x="15" y="21">Knight</text>
+        </g>
+        <g class="zone">
+            <rect x="20" y="14" width="10" height="14" />
+            <text x="25" y="21">Rook</text>
+        </g>
+        <g class="zone">
+            <rect x="-30" y="28" width="10" height="14" />
+            <text x="-25" y="35">Rook</text>
+        </g>
+        <g class="zone">
+            <rect x="-20" y="28" width="10" height="14" />
+            <text x="-15" y="35">Bishop</text>
+        </g>
+        <g class="zone">
+            <rect x="-10" y="28" width="10" height="14" />
+            <text x="-5" y="35">Queen</text>
+        </g>
+        <g class="zone">
+            <rect x="0" y="28" width="10" height="14" />
+            <text x="5" y="35">King</text>
+        </g>
+        <g class="zone">
+            <rect x="10" y="28" width="10" height="14" />
+            <text x="15" y="35">Bishop</text>
+        </g>
+        <g class="zone">
+            <rect x="20" y="28" width="10" height="14" />
+            <text x="25" y="35">Rook</text>
+        </g>
+    </g>
+    <g class="zone">
+        <rect x="31.5" y="6" width="10" height="14" />
+        <text x="36.5" y="13" class="rotate-r">Grave</text>
+    </g>
+    <g class="zone">
+        <rect x="31.5" y="22" width="10" height="14" />
+        <text x="36.5" y="29" class="rotate-r">Deck</text>
+    </g>
+</svg>
