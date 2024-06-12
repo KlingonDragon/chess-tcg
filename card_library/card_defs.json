@@ -1,0 +1,27 @@
+[
+    {
+        "name": "King",
+        "type": "king",
+        "cost": 2,
+        "life": 2,
+        "attack": "1D6",
+        "defence": "2D6"
+    },
+    {
+        "name": "Pawn",
+        "type": "pawn",
+        "cost": 1,
+        "life": 1,
+        "attack": "1D4",
+        "defence": "1D4"
+    },
+    {
+        "name": "Reckless Pawn",
+        "type": "pawn",
+        "cost": 3,
+        "life": 1,
+        "effects": "This piece may move on its first turn.\nThis piece has 1D6 attack on its first turn.",
+        "attack": "1D4",
+        "defence": "1D4"
+    }
+]

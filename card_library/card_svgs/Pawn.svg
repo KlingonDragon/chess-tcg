@@ -1,0 +1,92 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 -21 30 42">
+    <defs>
+        <style>
+        rect {
+            fill: white;
+            stroke: black;
+            stroke-width: 0.75;
+            stroke-linejoin: round;
+            stroke-linecap: round;
+        }
+        
+        path {
+            fill: none;
+            stroke: black;
+            stroke-width: 2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+        
+        path.fill {
+            fill: black;
+        }
+        
+        text {
+            font-family: sans-serif;
+            dominant-baseline: central;
+        }
+        
+        text.title {
+            font-size: 2px;
+            text-anchor: middle;
+        }
+        
+        text.cost {
+            font-size: 1px;
+            text-anchor: end;
+        }
+
+        text.effect {
+            font-size: 1px;
+            text-anchor: start;
+            dominant-baseline: hanging;
+        }
+        
+        text.label {
+            font-size: 1px;
+            text-anchor: start;
+        }
+        
+        text.dice {
+            font-size: 2px;
+            text-anchor: end;
+        }
+</style>
+        <symbol id="heart" viewBox="-10 -10 20 20">
+            <path class="fill" d="M 0,-5 A 1,1 0 0 1 8,0 Q 0,10 0,10 Q 0,10 -8,0 A 1,1 0 0 1 0,-5 Z" />
+        </symbol>
+        <symbol id="icon" viewBox="-25 -25 50 50">
+            
+    <path class="fill" d="
+        M 0,-20 Q -25,25 20,20 L -20,20 Q 25,25 0,-20 Z
+    " />
+
+        </symbol>
+    </defs>
+    <!-- Card Layout -->
+    <rect x="-14" y="-20" width="28" height="40" />
+    <rect x="-14" y="-20" width="21" height="4" />
+    <rect x="7" y="-20" width="7" height="7" />
+    <rect x="-14" y="-16" width="21" height="21" />
+    <use href="#icon" x="8" y="-19" width="5" height="5" />
+    <rect x="7" y="-13" width="7" height="2" />
+    <text x="7.5" y="-12" class="label">Cost</text>
+    <rect x="7" y="-11" width="7" height="16" />
+    <rect x="-14" y="5" width="28" height="11" />
+    <rect x="-14" y="16" width="14" height="4" />
+    <rect x="0" y="16" width="14" height="4" />
+    <text x="-13.5" y="17" class="label">Attack</text>
+    <text x="0.5" y="17" class="label">Defence</text>
+    <!-- Card Details -->
+    <text x="-3.5" y="-18" class="title">Pawn</text>
+    <text x="13.5" y="-12" class="cost">1</text>
+    <g>
+        <use href="#heart" x="8.25" y="-10.5" width="4.5" height="5.0" />
+    </g>
+    <text x="-13.5" y="4.5" class="effect">
+        <tspan x="-13.5" dy="1.2em"></tspan>
+    </text>
+    <text x="-0.5" y="18" class="dice">1D4</text>
+    <text x="13.5" y="18" class="dice">1D4</text>
+</svg>
