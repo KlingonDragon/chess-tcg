@@ -9,5 +9,5 @@ A Trading Card Game based on chess with common TCG elements
 
 ## Example cards
 ### Blank
-![Blank Card](./svg/card_layout.svg)
-![Basic King](./card_library/basic_king.svg)
+![Pawn](./card_library/card_svgs/Pawn.svg)
+![King](./card_library/card_svgs/King.svg)
