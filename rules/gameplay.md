@@ -30,4 +30,4 @@ Do any of the following actions in any order:
 #### Combat with `kings`
 Combat involving `kings` is similar to the standard combat except a king is never moved to the `hospital` instead, the `king` loses a `life` and the winning `piece` is moved to the hospital without losing a `life`
 ### Cleanup Phase
-Resolve any affects which occur in the `cleanup` or `at the end of turn`
+Resolve any effects which occur in the `cleanup` or `at the end of turn`
